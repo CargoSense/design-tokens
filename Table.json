@@ -1,0 +1,74 @@
+{
+  "Table": {
+    "Border Radius": {
+      "$type": "borderRadius",
+      "$value": "0"
+    },
+    "TD Padding Vertical": {
+      "$type": "spacing",
+      "$value": "{space-m} * 0.875"
+    },
+    "TD Padding Horizontal": {
+      "$type": "spacing",
+      "$value": "{space-s}"
+    },
+    "BorderColor": {
+      "$type": "color",
+      "$value": "{UI.Border.Primary}"
+    },
+    "HeadBackground": {
+      "$type": "color",
+      "$value": "#f8f8f8"
+    },
+    "RowBackground-Default": {
+      "$type": "color",
+      "$value": "{Base Color .White}"
+    },
+    "RowBackground-Default-Selected": {
+      "$type": "color",
+      "$value": "{Base Color .White}"
+    },
+    "RowBackground-Default-Hover": {
+      "$type": "color",
+      "$value": "{Base Color .White}"
+    },
+    "RowBackground-Alternating": {
+      "$type": "color",
+      "$value": "{Base Color .White}"
+    },
+    "RowBackground-Alternating-Hover": {
+      "$type": "color",
+      "$value": "{Base Color .White}"
+    },
+    "RowBackground-Alternating-Selected": {
+      "$type": "color",
+      "$value": "{Base Color .White}"
+    },
+    "HeadTextColor": {
+      "$type": "color",
+      "$value": "{Base Color . Grey . 600}"
+    },
+    "DefaultTextColor": {
+      "$type": "color",
+      "$value": "{Text.PrimaryColor}"
+    },
+    "IconColor": {
+      "$type": "color",
+      "$value": "{Base Color . Slate . 700}"
+    },
+    "IconColor-Hover": {
+      "$type": "color",
+      "$value": "{Base Color . Teal . 700}"
+    },
+    "Font Size": {
+      "$type": "fontSizes",
+      "$value": "{Font Size.Base}"
+    }
+  },
+  "Table Head": {
+    "Font Size": {
+      "$type": "fontSizes",
+      "$value": "{Font Size.Base} - 3"
+    }
+  }
+}

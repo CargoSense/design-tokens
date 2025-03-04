@@ -1,0 +1,168 @@
+{
+  "Button": {
+    "Primary": {
+      "Background": {
+        "$type": "color",
+        "$value": "{Base Color . Teal . 600}"
+      },
+      "Background-Hover": {
+        "$type": "color",
+        "$value": "{Base Color . Teal . 700}"
+      },
+      "TextColor": {
+        "$type": "color",
+        "$value": "{Base Color .White}"
+      },
+      "TextColor-Hover": {
+        "$type": "color",
+        "$value": "{Base Color .White}"
+      },
+      "IconColor": {
+        "$type": "color",
+        "$value": "{Base Color . Teal . 200}"
+      },
+      "IconColor-Hover": {
+        "$type": "color",
+        "$value": "{Base Color . Teal . 200}"
+      }
+    }
+  },
+  "Link": {
+    "Primary": {
+      "TextColor": {
+        "$type": "color",
+        "$value": "{Base Color . Teal . 600}"
+      },
+      "TextColor-Hover": {
+        "$type": "color",
+        "$value": "{Base Color . Teal . 700}"
+      }
+    }
+  },
+  "Text": {
+    "PrimaryColor": {
+      "$type": "color",
+      "$value": "{Base Color . Grey . 900}"
+    },
+    "SecondaryColor": {
+      "$type": "color",
+      "$value": "{Base Color . Grey . 700}"
+    },
+    "FontFamily": {
+      "$type": "fontFamilies",
+      "$value": "Roboto"
+    },
+    "PageTitle": {
+      "Size": {
+        "$type": "fontSizes",
+        "$value": "24"
+      }
+    },
+    "DefaultSize": {
+      "$type": "fontSizes",
+      "$value": "16px"
+    }
+  },
+  "UI": {
+    "Border": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#D6D7D9"
+      }
+    },
+    "PageBackground": {
+      "$type": "color",
+      "$value": "{Base Color .White}"
+    }
+  },
+  "Icon": {
+    "Primary": {
+      "Flat": {
+        "Color": {
+          "$type": "color",
+          "$value": "{Base Color . Slate . 600}"
+        },
+        "Color-Hover": {
+          "$type": "color",
+          "$value": "{Base Color . Slate . 700}"
+        }
+      },
+      "Duotone": {
+        "Border": {
+          "$type": "color",
+          "$value": "{Base Color . Slate . 600}"
+        },
+        "Border-Hover": {
+          "$type": "color",
+          "$value": "{Base Color . Slate . 700}"
+        },
+        "Background": {
+          "$type": "color",
+          "$value": "{Base Color . Slate . 100}"
+        },
+        "Background-Hover": {
+          "$type": "color",
+          "$value": "{Base Color . Slate . 100}"
+        },
+        "BackgroundAlt": {
+          "$type": "color",
+          "$value": "{UI.PageBackground}",
+          "$description": "Duotone icons will occassionally have two background colors: BackgroundAlt should match the page background. \n\nIf possible, designers can delete BackgroundAlt references to make the icons more transparent/not have two background colors."
+        },
+        "BackgroundAlt-Hover": {
+          "$type": "color",
+          "$value": "{UI.PageBackground}"
+        }
+      }
+    },
+    "Teal": {
+      "Flat": {
+        "Color": {
+          "$type": "color",
+          "$value": "{Base Color . Teal . 600}"
+        },
+        "Color-Hover": {
+          "$type": "color",
+          "$value": "{Base Color . Teal . 700}"
+        }
+      },
+      "Duotone": {
+        "Border": {
+          "$type": "color",
+          "$value": "{Base Color . Teal . 600}"
+        },
+        "Border-Hover": {
+          "$type": "color",
+          "$value": "{Base Color . Teal . 700}"
+        },
+        "Background": {
+          "$type": "color",
+          "$value": "{Base Color . Teal . 100}"
+        },
+        "Background-Hover": {
+          "$type": "color",
+          "$value": "{Base Color . Teal . 100}"
+        },
+        "BackgroundAlt": {
+          "$type": "color",
+          "$value": "{UI.PageBackground}",
+          "$description": "Duotone icons will occassionally have two background colors: BackgroundAlt should match the page background. \n\nIf possible, designers can delete BackgroundAlt references to make the icons more transparent/not have two background colors."
+        },
+        "BackgroundAlt-Hover": {
+          "$type": "color",
+          "$value": "{UI.PageBackground}"
+        }
+      }
+    }
+  },
+  "Navbar-copy": {
+    "Background": {
+      "$type": "color",
+      "$value": "#F2F3F4"
+    },
+    "Border": {
+      "$type": "color",
+      "$value": "{UI.Border.Primary}"
+    }
+  }
+}
