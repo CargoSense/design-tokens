@@ -45,53 +45,10 @@
   --base-color-grey-700: #4d4d4d;
   --base-color-grey-800: #323232;
   --base-color-grey-900: #1a1a1a;
-  --base-color-grey-950: #0c0c0c;
+  --base-color-grey-950: #0c0c0b;
   --base-color-grey-500: #808080;
   --base-color-white: #ffffff;
   --base-color-black: #000000;
-  --button-primary-background: #128576;
-  --button-primary-background-hover: #0f665f;
-  --button-primary-text-color: #ffffff;
-  --button-primary-text-color-hover: #ffffff;
-  --button-primary-icon-color: #b1e9df;
-  --button-primary-icon-color-hover: #b1e9df;
-  --link-primary-text-color: #128576;
-  --link-primary-text-color-hover: #0f665f;
-  --text-primary-color: #1a1a1a;
-  --text-secondary-color: #4d4d4d;
-  --text-font-family: Roboto;
-  --text-page-title-size: 24px;
-  --text-default-size: 16px;
-  --ui-border-primary: #d6d7d9;
-  --ui-page-background: #ffffff;
-  --icon-primary-flat-color: #5c6570;
-  --icon-primary-flat-color-hover: #444c55;
-  --icon-primary-duotone-border: #5c6570;
-  --icon-primary-duotone-border-hover: #444c55;
-  --icon-primary-duotone-background: #e1e5ea;
-  --icon-primary-duotone-background-hover: #e1e5ea;
-  /**
-   * Duotone icons will occassionally have two background colors: BackgroundAlt should match the page background. 
-   * 
-   * If possible, designers can delete BackgroundAlt references to make the icons more transparent/not have two background colors.
-   */
-  --icon-primary-duotone-background-alt: #ffffff;
-  --icon-primary-duotone-background-alt-hover: #ffffff;
-  --icon-teal-flat-color: #128576;
-  --icon-teal-flat-color-hover: #0f665f;
-  --icon-teal-duotone-border: #128576;
-  --icon-teal-duotone-border-hover: #0f665f;
-  --icon-teal-duotone-background: #d1eeea;
-  --icon-teal-duotone-background-hover: #d1eeea;
-  /**
-   * Duotone icons will occassionally have two background colors: BackgroundAlt should match the page background. 
-   * 
-   * If possible, designers can delete BackgroundAlt references to make the icons more transparent/not have two background colors.
-   */
-  --icon-teal-duotone-background-alt: #ffffff;
-  --icon-teal-duotone-background-alt-hover: #ffffff;
-  --navbar-copy-background: #f2f3f4;
-  --navbar-copy-border: #d6d7d9;
   --navbar-expanded-width: 268px;
   --navbar-condensed-width: 68px;
   --navbar-background: #f2f3f4;
@@ -150,4 +107,47 @@
   --table-icon-color-hover: #0f665f;
   --table-font-size: 16px;
   --table-head-font-size: 13px;
+  --button-primary-background: #128576;
+  --button-primary-background-hover: #0f665f;
+  --button-primary-text-color: #ffffff;
+  --button-primary-text-color-hover: #ffffff;
+  --button-primary-icon-color: #b1e9df;
+  --button-primary-icon-color-hover: #b1e9df;
+  --link-primary-text-color: #128576;
+  --link-primary-text-color-hover: #0f665f;
+  --text-primary-color: #1a1a1a;
+  --text-secondary-color: #4d4d4d;
+  --text-font-family: Roboto;
+  --text-page-title-size: 24px;
+  --text-default-size: 16px;
+  --ui-border-primary: #d6d7d9;
+  --ui-page-background: #ffffff;
+  --icon-primary-flat-color: #5c6570;
+  --icon-primary-flat-color-hover: #444c55;
+  --icon-primary-duotone-border: #5c6570;
+  --icon-primary-duotone-border-hover: #444c55;
+  --icon-primary-duotone-background: #e1e5ea;
+  --icon-primary-duotone-background-hover: #e1e5ea;
+  /**
+   * Duotone icons will occassionally have two background colors: BackgroundAlt should match the page background. 
+   * 
+   * If possible, designers can delete BackgroundAlt references to make the icons more transparent/not have two background colors.
+   */
+  --icon-primary-duotone-background-alt: #ffffff;
+  --icon-primary-duotone-background-alt-hover: #ffffff;
+  --icon-teal-flat-color: #128576;
+  --icon-teal-flat-color-hover: #0f665f;
+  --icon-teal-duotone-border: #128576;
+  --icon-teal-duotone-border-hover: #0f665f;
+  --icon-teal-duotone-background: #d1eeea;
+  --icon-teal-duotone-background-hover: #d1eeea;
+  /**
+   * Duotone icons will occassionally have two background colors: BackgroundAlt should match the page background. 
+   * 
+   * If possible, designers can delete BackgroundAlt references to make the icons more transparent/not have two background colors.
+   */
+  --icon-teal-duotone-background-alt: #ffffff;
+  --icon-teal-duotone-background-alt-hover: #ffffff;
+  --navbar-copy-background: #f2f3f4;
+  --navbar-copy-border: #d6d7d9;
 }
