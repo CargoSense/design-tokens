@@ -1,0 +1,64 @@
+{
+  "Font Size": {
+    "Base": {
+      "$type": "fontSizes",
+      "$value": "16",
+      "$description": "Base unit for text size."
+    },
+    "XS": {
+      "$type": "fontSizes",
+      "$value": "{Font Size.Base} * 0.6875"
+    },
+    "S": {
+      "$type": "fontSizes",
+      "$value": "{Font Size.Base} * 0.75"
+    },
+    "M": {
+      "$type": "fontSizes",
+      "$value": "{Font Size.Base} * 0.875"
+    },
+    "L": {
+      "$type": "fontSizes",
+      "$value": "{Font Size.Base} * 1"
+    },
+    "XL": {
+      "$type": "fontSizes",
+      "$value": "{Font Size.Base} * 1.25"
+    },
+    "XXL": {
+      "$type": "fontSizes",
+      "$value": "{Font Size.Base} * 1.5"
+    },
+    "XXXL": {
+      "$type": "fontSizes",
+      "$value": "{Font Size.Base} * 2.5"
+    }
+  },
+  "Line Height": {
+    "Tight": {
+      "$type": "lineHeights",
+      "$value": "1.15",
+      "$description": "This token can be used when you don’t want line height taking any extra space (e.g., table cells)"
+    },
+    "Heading": {
+      "$type": "lineHeights",
+      "$value": "1.2",
+      "$description": "This is the default line height for headings."
+    },
+    "Caption": {
+      "$type": "lineHeights",
+      "$value": "1.3",
+      "$description": "This is the default line height for captions, hint texts and form errors."
+    },
+    "Default": {
+      "$type": "lineHeights",
+      "$value": "1.5",
+      "$description": "This is the default line height for body text."
+    },
+    "Form": {
+      "$type": "lineHeights",
+      "$value": "20px",
+      "$description": "This is the default line height for form inputs, textareas and buttons."
+    }
+  }
+}
