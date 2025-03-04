@@ -5,8 +5,8 @@
     "Global/Border Radius",
     "Global/Size",
     "Global/Typography",
-    "Canopy/UI",
-    "Canopy/Navbar",
-    "Table"
+    "UI",
+    "Table",
+    "Canopy/Navbar"
   ]
 }

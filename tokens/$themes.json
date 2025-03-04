@@ -5,13 +5,13 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/Color": "enabled",
-      "Canopy/UI": "enabled",
       "Canopy/Navbar": "enabled",
       "Global/Space": "enabled",
       "Global/Border Radius": "enabled",
       "Global/Size": "enabled",
       "Global/Typography": "enabled",
-      "Table": "enabled"
+      "Table": "enabled",
+      "UI": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:30237:1687",
     "$figmaModeId": "30237:0",
