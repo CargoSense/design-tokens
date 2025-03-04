@@ -1,0 +1,153 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --base-color-teal-50: #e5f5f3;
+  --base-color-teal-100: #d1eeea;
+  --base-color-teal-200: #b1e9df;
+  --base-color-teal-300: #6ddac6;
+  --base-color-teal-400: #27caaf;
+  --base-color-teal-500: #00ab8e;
+  --base-color-teal-600: #128576;
+  --base-color-teal-700: #0f665f;
+  --base-color-teal-800: #024c49;
+  --base-color-teal-900: #013333;
+  --base-color-teal-950: #002424;
+  --base-color-slate-50: #f1f4f6;
+  --base-color-slate-100: #e1e5ea;
+  --base-color-slate-200: #c5ccd3;
+  --base-color-slate-300: #a9b2bc;
+  --base-color-slate-400: #8e98a4;
+  --base-color-slate-500: #747e8b;
+  --base-color-slate-600: #5c6570;
+  --base-color-slate-700: #444c55;
+  --base-color-slate-800: #2d3339;
+  --base-color-slate-900: #1b1f23;
+  --base-color-slate-950: #0c0e0f;
+  --base-color-stone-50: #f8fbfc;
+  --base-color-stone-100: #f1f8f9;
+  --base-color-stone-200: #e2eef0;
+  --base-color-stone-300: #cbdee1;
+  --base-color-stone-400: #99b0b5;
+  --base-color-stone-500: #71878b;
+  --base-color-stone-600: #4c5c5f;
+  --base-color-stone-700: #3b484a;
+  --base-color-stone-800: #24383c;
+  --base-color-stone-900: #1a282b;
+  --base-color-stone-950: #081618;
+  --base-color-grey-50: #f2f2f2;
+  --base-color-grey-100: #e5e5e5;
+  --base-color-grey-200: #cbcbcb;
+  --base-color-grey-300: #b3b3b3;
+  --base-color-grey-400: #9a9a9a;
+  --base-color-grey-600: #666666;
+  --base-color-grey-700: #4d4d4d;
+  --base-color-grey-800: #323232;
+  --base-color-grey-900: #1a1a1a;
+  --base-color-grey-950: #0c0c0c;
+  --base-color-grey-500: #808080;
+  --base-color-white: #ffffff;
+  --base-color-black: #000000;
+  --button-primary-background: #128576;
+  --button-primary-background-hover: #0f665f;
+  --button-primary-text-color: #ffffff;
+  --button-primary-text-color-hover: #ffffff;
+  --button-primary-icon-color: #b1e9df;
+  --button-primary-icon-color-hover: #b1e9df;
+  --link-primary-text-color: #128576;
+  --link-primary-text-color-hover: #0f665f;
+  --text-primary-color: #1a1a1a;
+  --text-secondary-color: #4d4d4d;
+  --text-font-family: Roboto;
+  --text-page-title-size: 24px;
+  --text-default-size: 16px;
+  --ui-border-primary: #d6d7d9;
+  --ui-page-background: #ffffff;
+  --icon-primary-flat-color: #5c6570;
+  --icon-primary-flat-color-hover: #444c55;
+  --icon-primary-duotone-border: #5c6570;
+  --icon-primary-duotone-border-hover: #444c55;
+  --icon-primary-duotone-background: #e1e5ea;
+  --icon-primary-duotone-background-hover: #e1e5ea;
+  /**
+   * Duotone icons will occassionally have two background colors: BackgroundAlt should match the page background. 
+   * 
+   * If possible, designers can delete BackgroundAlt references to make the icons more transparent/not have two background colors.
+   */
+  --icon-primary-duotone-background-alt: #ffffff;
+  --icon-primary-duotone-background-alt-hover: #ffffff;
+  --icon-teal-flat-color: #128576;
+  --icon-teal-flat-color-hover: #0f665f;
+  --icon-teal-duotone-border: #128576;
+  --icon-teal-duotone-border-hover: #0f665f;
+  --icon-teal-duotone-background: #d1eeea;
+  --icon-teal-duotone-background-hover: #d1eeea;
+  /**
+   * Duotone icons will occassionally have two background colors: BackgroundAlt should match the page background. 
+   * 
+   * If possible, designers can delete BackgroundAlt references to make the icons more transparent/not have two background colors.
+   */
+  --icon-teal-duotone-background-alt: #ffffff;
+  --icon-teal-duotone-background-alt-hover: #ffffff;
+  --navbar-copy-background: #f2f3f4;
+  --navbar-copy-border: #d6d7d9;
+  --navbar-expanded-width: 268px;
+  --navbar-condensed-width: 68px;
+  --navbar-background: #f2f3f4;
+  --navbar-border: #d6d7d9;
+  --navbar-icon-control-tower: url("controltower-flat.svg");
+  --navbar-icon-monitoring: url("monitoring-flat.svg");
+  --navbar-icon-settings: url("settings-flat.svg");
+  --navbar-icon-logo: url("logo-flat.svg");
+  --navbar-icon-size: 64px;
+  --space-base: 16px;
+  --space-xxs: 2px; /* This is a xx-small space. */
+  --space-xs: 4px; /* This is a x-small space */
+  --space-s: 8px; /* This is a small space */
+  --space-m: 16px; /* This is the default (medium) space */
+  --space-l: 24px; /* This is a large space */
+  --space-xl: 32px; /* This is a x-large space */
+  --space-xxl: 64px; /* This is a xx-large space */
+  --border-radius-small: 3px; /* used for checkboxes */
+  --border-radius-medium: 5px; /* used for forms and buttons */
+  --border-radius-pill: 999px; /* used for pill buttons and labels */
+  --border-radius-circle: 50%; /* used for circles */
+  --size-base: 16px;
+  --size-s: 12px; /* This is a small size for icons. Most commonly used for icons inside small buttons and select menu toggles. */
+  --size-m: 16px; /* This is a medium size for icons. Most commonly used for icons that sit inside buttons. */
+  --size-l: 24px; /* This is a large size for icons. Most commonly used for illustrative purposes. */
+  --size-xl: 48px; /* This is a x-large size for icons. Most commonly used for illustrative purposes. */
+  --size-xxl: 72px; /* This is a xx-large size for icons. Most commonly used for illustrative purposes. */
+  --size-topbar: 64px;
+  --font-size-base: 16px; /* Base unit for text size. */
+  --font-size-xs: 11px;
+  --font-size-s: 12px;
+  --font-size-m: 14px;
+  --font-size-l: 16px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 40px;
+  --line-height-tight: 1.15; /* This token can be used when you don’t want line height taking any extra space (e.g., table cells) */
+  --line-height-heading: 1.2; /* This is the default line height for headings. */
+  --line-height-caption: 1.3; /* This is the default line height for captions, hint texts and form errors. */
+  --line-height-default: 1.5; /* This is the default line height for body text. */
+  --line-height-form: 20px; /* This is the default line height for form inputs, textareas and buttons. */
+  --table-border-radius: 0;
+  --table-td-padding-vertical: 14px;
+  --table-td-padding-horizontal: 8px;
+  --table-border-color: #d6d7d9;
+  --table-head-background: #f8f8f8;
+  --table-row-background-default: #ffffff;
+  --table-row-background-default-selected: #ffffff;
+  --table-row-background-default-hover: #ffffff;
+  --table-row-background-alternating: #ffffff;
+  --table-row-background-alternating-hover: #ffffff;
+  --table-row-background-alternating-selected: #ffffff;
+  --table-head-text-color: #666666;
+  --table-default-text-color: #1a1a1a;
+  --table-icon-color: #444c55;
+  --table-icon-color-hover: #0f665f;
+  --table-font-size: 16px;
+  --table-head-font-size: 13px;
+}
