@@ -174,7 +174,7 @@
         },
         "Hover": {
           "$type": "color",
-          "$value": "{Base Color .White}"
+          "$value": "{Base Color.White}"
         },
         "Default": {
           "$type": "color",
@@ -200,11 +200,11 @@
       "Background": {
         "Default": {
           "$type": "color",
-          "$value": "{Base Color . Slate . 50}"
+          "$value": "{Base Color.Slate.50}"
         },
         "Hover": {
           "$type": "color",
-          "$value": "{Base Color .White}"
+          "$value": "{Base Color.White}"
         },
         "Disabled": {
           "$type": "color",
@@ -232,7 +232,7 @@
         },
         "Hover": {
           "$type": "color",
-          "$value": "{Base Color . Slate . 600}"
+          "$value": "{Base Color.Slate.600}"
         },
         "Disabled": {
           "$type": "color",
