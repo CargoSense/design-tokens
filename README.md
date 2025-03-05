@@ -1,8 +1,8 @@
 # design-tokens
 
-this repo contains tokens.json exported from [Tokens Studio](https://tokens.studio/). the tokens.json file is automatically pushed and pulled through the Tokens Studio plugin ([docs here](https://docs.tokens.studio/token-storage-and-sync/sync-provider-github)).
+This repo contains variables.css, exported through the (CSS Variables Generator)[https://www.figma.com/community/plugin/1271829798610738782/css-variables-generator] plugin for Figma.
 
-to do:
-- [ ] get style dictionary installed and working
-- [ ] have github actions fire and run style dictionary every time the tokens.json gets changed.
-- [ ] following [this instructions guide](https://chatgpt.com/share/67c74ed6-568c-800e-bb02-07d375128599) roughly
+A few notes:
+- It does not contain the Figma collection or mode as part of the naming convention. This means variables of the same name in different collections could cause conflicts. To avoid issues, please give each variable a unique name. (Note: if a given collection has more than one mode, the mode name is included as a suffix in the following format `--{name}-{mode}`.)
+- This is not a true design token, as it lacks the JSON format. It is not as easily transformed into JS or other formats, and skips the use of Style Dictionary entirely.
+- There is no way to import these variables 
