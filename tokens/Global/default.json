@@ -1,0 +1,268 @@
+{
+  "Base Color": {
+    "Teal": {
+      "50": {
+        "$type": "color",
+        "$value": "#e5f5f3"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#d1eeea"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#b1e9df"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#6ddac6"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#27caaf"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#00ab8e"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#128576"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#0f665f"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#024c49"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#013333"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#002424"
+      }
+    },
+    "Slate": {
+      "50": {
+        "$type": "color",
+        "$value": "#f1f4f6"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#e1e5ea"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#c5ccd3"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#a9b2bc"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#8e98a4"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#747e8b"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#5c6570"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#444c55"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#2d3339"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#1b1f23"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#0c0e0f"
+      }
+    },
+    "Stone": {
+      "50": {
+        "$type": "color",
+        "$value": "#f8fbfc"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#f1f8f9"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#e2eef0"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#cbdee1"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#99b0b5"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#71878b"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#4c5c5f"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#3b484a"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#24383c"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#1a282b"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#081618"
+      }
+    },
+    "Grey": {
+      "50": {
+        "$type": "color",
+        "$value": "#f2f2f2"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#e5e5e5"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#cbcbcb"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#b3b3b3"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#9a9a9a"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#808080"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#666666"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#4d4d4d"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#323232"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#1a1a1a"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#0d0d0d"
+      }
+    },
+    "White": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "Black": {
+      "$type": "color",
+      "$value": "#000000"
+    }
+  },
+  "size-s": {
+    "$type": "number",
+    "$value": 12,
+    "$description": "This is a small size for icons. Most commonly used for icons inside small buttons and select menu toggles."
+  },
+  "size-base": {
+    "$type": "number",
+    "$value": 16
+  },
+  "space-xxl": {
+    "$type": "number",
+    "$value": 64,
+    "$description": "This is a xx-large space"
+  },
+  "space-xl": {
+    "$type": "number",
+    "$value": 32,
+    "$description": "This is a x-large space"
+  },
+  "space-m": {
+    "$type": "number",
+    "$value": "{space-base}",
+    "$description": "This is the default (medium) space"
+  },
+  "space-l": {
+    "$type": "number",
+    "$value": 24,
+    "$description": "This is a large space"
+  },
+  "space-s": {
+    "$type": "number",
+    "$value": 8,
+    "$description": "This is a small space"
+  },
+  "space-base": {
+    "$type": "number",
+    "$value": 16
+  },
+  "space-xs": {
+    "$type": "number",
+    "$value": 4,
+    "$description": "This is a x-small space"
+  },
+  "size-topbar": {
+    "$type": "number",
+    "$value": 64
+  },
+  "size-xxl": {
+    "$type": "number",
+    "$value": 72,
+    "$description": "This is a xx-large size for icons. Most commonly used for illustrative purposes."
+  },
+  "size-xl": {
+    "$type": "number",
+    "$value": 48,
+    "$description": "This is a x-large size for icons. Most commonly used for illustrative purposes."
+  },
+  "size-l": {
+    "$type": "number",
+    "$value": 24,
+    "$description": "This is a large size for icons. Most commonly used for illustrative purposes."
+  },
+  "size-m": {
+    "$type": "number",
+    "$value": "{size-base}",
+    "$description": "This is a medium size for icons. Most commonly used for icons that sit inside buttons."
+  },
+  "space-xxs": {
+    "$type": "number",
+    "$value": 2,
+    "$description": "This is a xx-small space."
+  }
+}

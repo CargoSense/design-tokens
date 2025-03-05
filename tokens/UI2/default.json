@@ -1,0 +1,342 @@
+{
+  "Link": {
+    "Primary": {
+      "TextColor": {
+        "$type": "color",
+        "$value": "{Base Color.Teal.600}"
+      },
+      "TextColor-Hover": {
+        "$type": "color",
+        "$value": "{Base Color.Teal.700}"
+      }
+    }
+  },
+  "Text": {
+    "PrimaryColor": {
+      "$type": "color",
+      "$value": "{Base Color.Grey.900}"
+    },
+    "SecondaryColor": {
+      "$type": "color",
+      "$value": "{Base Color.Grey.600}"
+    },
+    "FontFamily": {
+      "$type": "text",
+      "$value": "Geist"
+    },
+    "PageTitle": {
+      "Size": {
+        "$type": "number",
+        "$value": 24
+      }
+    },
+    "DefaultSize": {
+      "$type": "number",
+      "$value": "{space-base}"
+    }
+  },
+  "Icon": {
+    "Primary": {
+      "Flat": {
+        "Color": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.600}"
+        },
+        "Color-Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.700}"
+        }
+      },
+      "Duotone": {
+        "Border": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.600}"
+        },
+        "Border-Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.700}"
+        },
+        "Background": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.100}"
+        },
+        "Background-Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.100}"
+        },
+        "BackgroundAlt": {
+          "$type": "color",
+          "$value": "{UI.Page-Background}",
+          "$description": "Duotone icons will occassionally have two background colors: BackgroundAlt should match the page background. \n\nIf possible, designers can delete BackgroundAlt references to make the icons more transparent/not have two background colors."
+        },
+        "BackgroundAlt-Hover": {
+          "$type": "color",
+          "$value": "{UI.Page-Background}"
+        }
+      }
+    },
+    "Teal": {
+      "Flat": {
+        "Color": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.600}"
+        },
+        "Color-Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.700}"
+        }
+      },
+      "Duotone": {
+        "Border": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.600}"
+        },
+        "Border-Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.700}"
+        },
+        "Background": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.100}"
+        },
+        "Background-Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.100}"
+        },
+        "BackgroundAlt": {
+          "$type": "color",
+          "$value": "{UI.Page-Background}",
+          "$description": "Duotone icons will occassionally have two background colors: BackgroundAlt should match the page background. \n\nIf possible, designers can delete BackgroundAlt references to make the icons more transparent/not have two background colors."
+        },
+        "BackgroundAlt-Hover": {
+          "$type": "color",
+          "$value": "{UI.Page-Background}"
+        }
+      }
+    },
+    "Container": {
+      "Primary": {
+        "Background": {
+          "$type": "color",
+          "$value": "{Base Color.White}"
+        }
+      }
+    }
+  },
+  "Button": {
+    "Primary": {
+      "Background": {
+        "Default": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.600}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.500}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.300}"
+        }
+      },
+      "Border": {
+        "Default": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.700}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.500}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.700}"
+        }
+      },
+      "Icon": {
+        "Default": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.200}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.200}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.200}"
+        }
+      },
+      "Text": {
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.100}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Base Color .White}"
+        },
+        "Default": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.50}"
+        }
+      }
+    },
+    "Secondary": {
+      "Border": {
+        "Default": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.200}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.100}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.200}"
+        }
+      },
+      "Background": {
+        "Default": {
+          "$type": "color",
+          "$value": "{Base Color . Slate . 50}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Base Color .White}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.100}"
+        }
+      },
+      "Icon": {
+        "Default": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.500}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.200}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.500}"
+        }
+      },
+      "Text": {
+        "Default": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.700}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Base Color . Slate . 600}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Base Color.Slate.300}"
+        }
+      }
+    },
+    "Vertical Padding": {
+      "$type": "number",
+      "$value": 10
+    },
+    "Gap": {
+      "$type": "number",
+      "$value": 10
+    },
+    "Border Radius": {
+      "$type": "number",
+      "$value": 6
+    },
+    "Horizontal Padding": {
+      "$type": "number",
+      "$value": 12
+    },
+    "MinHeight": {
+      "$type": "number",
+      "$value": 40
+    }
+  },
+  "space-base": {
+    "$type": "number",
+    "$value": 16
+  },
+  "space-xxs": {
+    "$type": "number",
+    "$value": 2,
+    "$description": "This is a xx-small space."
+  },
+  "space-xs": {
+    "$type": "number",
+    "$value": 4,
+    "$description": "This is a x-small space"
+  },
+  "space-s": {
+    "$type": "number",
+    "$value": 8,
+    "$description": "This is a small space"
+  },
+  "space-m": {
+    "$type": "number",
+    "$value": "{space-base}",
+    "$description": "This is the default (medium) space"
+  },
+  "space-l": {
+    "$type": "number",
+    "$value": 24,
+    "$description": "This is a large space"
+  },
+  "space-xl": {
+    "$type": "number",
+    "$value": 32,
+    "$description": "This is a x-large space"
+  },
+  "space-xxl": {
+    "$type": "number",
+    "$value": 64,
+    "$description": "This is a xx-large space"
+  },
+  "size-base": {
+    "$type": "number",
+    "$value": 16
+  },
+  "size-s": {
+    "$type": "number",
+    "$value": 12,
+    "$description": "This is a small size for icons. Most commonly used for icons inside small buttons and select menu toggles."
+  },
+  "size-m": {
+    "$type": "number",
+    "$value": "{size-base}",
+    "$description": "This is a medium size for icons. Most commonly used for icons that sit inside buttons."
+  },
+  "size-l": {
+    "$type": "number",
+    "$value": 24,
+    "$description": "This is a large size for icons. Most commonly used for illustrative purposes."
+  },
+  "size-xl": {
+    "$type": "number",
+    "$value": 48,
+    "$description": "This is a x-large size for icons. Most commonly used for illustrative purposes."
+  },
+  "size-xxl": {
+    "$type": "number",
+    "$value": 72,
+    "$description": "This is a xx-large size for icons. Most commonly used for illustrative purposes."
+  },
+  "size-topbar": {
+    "$type": "number",
+    "$value": 64
+  },
+  "UI": {
+    "Page-Background": {
+      "$type": "color",
+      "$value": "{Base Color.White}"
+    }
+  }
+}

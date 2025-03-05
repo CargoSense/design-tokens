@@ -1,0 +1,54 @@
+{
+  "Border Color": {
+    "$type": "color",
+    "$value": "{Base Color.Grey.300}"
+  },
+  "Background": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "Text": {
+    "Primary Text Color": {
+      "$type": "color",
+      "$value": "{Base Color.Slate.900}"
+    },
+    "Secondary Text Color": {
+      "$type": "color",
+      "$value": "{Base Color.Slate.500}"
+    }
+  },
+  "Token Text Color": {
+    "$type": "color",
+    "$value": "{Base Color . Slate . 600}"
+  },
+  "Button": {
+    "Primary": {
+      "Focus Ring": {
+        "$type": "color",
+        "$value": "{Base Color.Teal.700}"
+      },
+      "DuotoneIcon": {
+        "Background": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.700}"
+        },
+        "TrueBackground": {
+          "$type": "color",
+          "$value": "{Button.Primary.Background.Default}"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "{Base Color.Teal.300}"
+        }
+      }
+    }
+  },
+  "Padding": {
+    "$type": "number",
+    "$value": "{space-xl}"
+  },
+  "Min Width": {
+    "$type": "number",
+    "$value": 860
+  }
+}
