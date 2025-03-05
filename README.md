@@ -2,7 +2,6 @@
 
 this repo contains tokens.json exported from [Tokens Studio](https://tokens.studio/). the tokens.json file is automatically pushed and pulled through the Tokens Studio plugin ([docs here](https://docs.tokens.studio/token-storage-and-sync/sync-provider-github)).
 
-to do:
-- [ ] get style dictionary installed and working
-- [ ] have github actions fire and run style dictionary every time the tokens.json gets changed.
-- [ ] following [this instructions guide](https://chatgpt.com/share/67c74ed6-568c-800e-bb02-07d375128599) roughly
+this branch (`3-5-25-backup`) contains a fully automated solution using Style Dictionary. Whenever a tokens file is uplaoded through Tokens Studio to the `/tokens/` directory (supporting themes by default), it will run Style Dictionary and transform those tokens into CSS variables.
+
+Inconsisent and frustrating workflows within Figma (specifically translating Figma Variables into Tokens Studio variables) have caused me to pause this solution for a more direct approach for now.
