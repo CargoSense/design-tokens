@@ -134,7 +134,6 @@
   --button-horizontal-padding-rem: 0.75rem;
   --button-min-height: 40px;
   --button-min-height-rem: 2.5rem;
-  --icon-container-primary-background: var(--base-color-slate-800);
   --ui-page-background: var(--base-color-white);
   --icon-stroke-width-default: 1.67px;
   --icon-stroke-width-default-rem: 0.1044rem;
@@ -146,11 +145,10 @@
   --icon-stroke-width-xl-rem: 0.25rem;
   --icon-stroke-width-small: 1px;
   --icon-stroke-width-small-rem: 0.0625rem;
-  --icon-container-primary-color: var(--base-color-slate-50);
-  --icon-container-primary-container-size: 36px;
-  --icon-container-primary-container-size-rem: 2.25rem;
-  --icon-container-primary-icon-size: 20px;
-  --icon-container-primary-icon-size-rem: 1.25rem;
+  --icon-container-size: 36px;
+  --icon-container-size-rem: 2.25rem;
+  --icon-container-icon-size: 20px;
+  --icon-container-icon-size-rem: 1.25rem;
   --event-primary-background: var(--base-color-slate-800);
   --event-primary-color: var(--base-color-slate-50);
   --event-secondary-background: var(--base-color-slate-500);
@@ -161,12 +159,20 @@
   --event-sensor-color: var(--base-color-teal-100);
   --event-fedex-background: #572297;
   --event-fedex-color: var(--base-color-slate-100);
-  --event-ups-background: #452c2c;
+  --event-ups-background: #573c3c;
   --event-ups-color: #ffd800;
   --event-air-background: #1d5faa;
   --event-air-color: #81cfff;
   --event-ocean-background: #12378e;
   --event-ocean-color: #d7e6ef;
+  --event-primary-border: var(--base-color-slate-900);
+  --event-secondary-border: var(--base-color-slate-600);
+  --event-exception-border: #a20d1c;
+  --event-sensor-border: var(--base-color-teal-800);
+  --event-fedex-border: #481e7a;
+  --event-ups-border: #352222;
+  --event-air-border: #185294;
+  --event-ocean-border: #132e6e;
 
   /* CADENCE */
   --size-topbar: 64px;
