@@ -173,6 +173,8 @@
   --event-ups-border: #352222;
   --event-air-border: #185294;
   --event-ocean-border: #132e6e;
+  --icon-container-border-radius: 5px;
+  --icon-container-border-radius-rem: 0.3125rem;
 
   /* CADENCE */
   --size-topbar: 64px;
